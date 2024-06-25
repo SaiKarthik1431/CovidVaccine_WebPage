@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    height: 100px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: -20px;
+    padding-bottom: 100px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    position: relative;
+    bottom: 15px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 900;
+    padding-bottom: 100px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    transition: color 0.3s ease;
+    font-weight: 900;
+}
+
+header nav ul li a:hover {
+    color: #d062a4;
+}
+
+#hero >.container > #hero-img {
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+#hero > .container > #hero-text > h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: -100px;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
